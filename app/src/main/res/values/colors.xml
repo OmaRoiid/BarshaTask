@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="MainColor">#fd86a2</color>
+    <color name="active_dots">#fd86a2</color>
+    <color name="dark_main_color">#f79eb5</color>
+    <color name="inactive_dots">#a9a9a9</color>
+    <color name="dark_gray">#8c8c8c</color>
+    <color name="white_color">#ffffff</color>
+    <color name="dark_white">#e5e5e5</color>
+</resources>

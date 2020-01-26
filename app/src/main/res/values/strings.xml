@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BarshaTask</string>
+    <string name="title_activity_splach_screen">SplachScreen</string>
+    <string name="welcome_txt">مرحبا بك في فرحتي</string>
+    <string name="user_type_txt">اختر صفة الدخول</string>
+    <string name="user_phone_num_hint">رقم الهاتف</string>
+    <string name="user_password_hint">كلمة المرور</string>
+    <string name="create_account_txt">انشاء حساب؟</string>
+</resources>
