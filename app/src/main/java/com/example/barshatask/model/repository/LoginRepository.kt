@@ -26,12 +26,12 @@ class LoginRepository {
                         userLoginState.onUserLoginSuccessfully(response.message())
                     }
                     if(response.code()!=200) {
-                        userLoginState.onUserLoginSuccessfully(response.message())
+                        userLoginState.onUserFailedToLogin(response.message())
                     }
                 }
 
                 override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
-                    userLoginState.onUserLoginSuccessfully(t.message!!)
+                    userLoginState.onNetworkError(t.message!!)
 
                 }
             })
