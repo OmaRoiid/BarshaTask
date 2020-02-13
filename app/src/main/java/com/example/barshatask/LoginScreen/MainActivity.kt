@@ -97,6 +97,7 @@ class MainActivity : AppCompatActivity(),UserLoginState {
 
     //this three functions responsible to get  all user cases at login
     override fun onUserLoginSuccessfully(msg: String) {
+         //Navigate to A Main Screen
         Toast.makeText(this,"مرحبا بكم ",Toast.LENGTH_SHORT).show()
     }
 
